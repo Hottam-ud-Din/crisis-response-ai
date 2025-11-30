@@ -1,3 +1,11 @@
+import zipfile
+import os
+
+# Check if we need to unzip
+if not os.path.exists('classifier.pkl') and os.path.exists('classifier.pkl.zip'):
+    with zipfile.ZipFile('classifier.pkl.zip', 'r') as zip_ref:
+        zip_ref.extractall('.')
+        
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -298,4 +306,5 @@ with col_right:
                 st.plotly_chart(fig_pie2, use_container_width=True)
             else:
                 st.info("No locations found.")
+
         st.markdown('</div>', unsafe_allow_html=True)
