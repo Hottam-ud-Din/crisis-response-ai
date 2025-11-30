@@ -20,7 +20,7 @@ In high-velocity disaster scenarios, manual tagging of thousands of incoming mes
 ### 💻 How to Run
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/your-username/crisis-response-ai.git](https://github.com/your-username/crisis-response-ai.git)
+   git clone [[https://github.com/your-username/crisis-response-ai.git](https://github.com/your-username/crisis-response-ai.git](https://github.com/Hottam-ud-Din/crisis-response-ai))
 
 
 2.  **Install dependencies**
@@ -44,3 +44,4 @@ The model was trained on a dataset of **26,000+ disaster response messages**. It
 -----
 
 *Developed by **Hottam Ud Din** | Aspiring Data Scientist*
+
