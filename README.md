@@ -21,7 +21,7 @@ In high-velocity disaster scenarios, manual tagging of thousands of incoming mes
 1. **Clone the repository**
    ```bash
    git clone [https://github.com/your-username/crisis-response-ai.git](https://github.com/your-username/crisis-response-ai.git)
-````
+
 
 2.  **Install dependencies**
     ```bash
@@ -44,13 +44,3 @@ The model was trained on a dataset of **26,000+ disaster response messages**. It
 -----
 
 *Developed by **Hottam Ud Din** | Aspiring Data Scientist*
-
-````
-
-### Why this format works
-* **The emoji in the title** makes it stand out.
-* **The `###` headers** create clear sections that hiring managers can scan quickly.
-* **The code blocks** (text inside ```) look professional and technical.
-
-Once you save this file and upload it to GitHub, it will automatically appear as the "front page" of your repository.
-````
